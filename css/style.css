@@ -1,0 +1,215 @@
+header{
+    height: 64px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.encabezado{
+    background-color:#fff;
+    text-align: left;
+    width: 100%;
+    margin:0px;
+    position: absolute;
+
+     display: flex;
+  justify-content: flex-start;
+   list-style: none;
+  gap: 10px;
+     
+ 
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: 10px;
+   padding: 0px 0px;
+   margin-left: 0px;
+}
+#Nombre_Marca{
+position: absolute;
+    margin-top: 15px;
+    font-weight: 700;
+    margin-left: 65px;
+    font-family: 'Bebas Neue';
+    font-size: 35px;
+}
+
+
+
+
+.menu {
+   list-style: none;
+ font-family: 'Oswald';
+    
+ background: #202621;
+    gap:5px;
+    display: flex;
+    list-style: none;
+    text-align: right;
+    width: 100%;
+    height: 64px;
+    font-weight: 700;
+        margin-top: 0px;
+justify-content: flex-end;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0px;
+    padding: 0 16px;
+    align-items: center;
+   font-family: SST, helvetica, arial, sans-serif;
+   
+}
+.words_nav{
+display: block;
+ color: #e7e2d8;
+ font-size: 30px;
+text-decoration: none;
+
+  font-family: "Bebas Neue", sans-serif;
+margin-right: 1px;
+margin-left: 1px;
+margin-top: 0;
+padding: 0px 0px;
+text-align: right;
+padding-left: 2px;
+
+
+}
+
+#Btn_Inicio {
+text-align: left;
+display: block;
+border-radius: 9999px;
+margin-left: auto;
+margin-right: 860px;
+
+}
+    
+
+a:hover{
+    color: #fff;
+     border-radius: 9999px;
+}
+
+
+
+.contenedor {
+    width: 100%;
+    height: 550px;
+     background-image: url('../wall.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding: 10px 0px;
+    
+
+}
+
+
+form{
+     font-family: 'Oswald';
+    
+    display: flex;
+    font-weight: 700;
+flex-direction: column;
+    color: #fff;
+font-size: 16px;
+ border-radius: 10px;
+gap: 7px;
+text-decoration: none;
+
+margin: 0 auto;
+text-align: center;
+justify-content: center;
+width: 200px;
+
+   background:rgba(20, 27, 23, 0.82); ;
+padding-right:12px ;
+padding-left: 12px;
+padding-top: 12px;
+padding-bottom: 24px;
+
+}
+
+#Btn_Form {
+    display: flex;
+
+    
+
+text-decoration: none;
+font-weight: 100;
+margin: 10px auto 0;
+text-align: center;
+justify-content: center;
+width: 200px;
+gap: 8px;
+
+}
+input{
+     border-radius: 9999px;
+       background: rgba(220,220,220,.92);
+        border-radius: 6px;
+  color: #111;
+}
+
+button:hover{
+      background: #273027;
+     border-color:  #a48a55;
+}
+
+button{
+       border-radius: 4px;
+       background-color: black;
+       color: #fff;
+      height: 34px;
+       font-family: "Bebas Neue", sans-serif;
+       width: 88px;
+       color:#e7e2d8;
+       background: #151c17;
+       text-align: center;
+}
+
+#Listar {
+    all:unset;
+    
+}
+
+label {
+    padding: 0px 0px;
+    margin-top: 10px;
+      font-family: "Bebas Neue", sans-serif;
+      color:#e7e2d8;
+}
+
+footer{
+     background: rgba(10,14,12,.75);
+    margin-top: 58px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    height: 40px;
+    margin-right: 0px;
+    color: #b6b1a5;;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Oswald';
+    padding: 0px 0px;
+   
+}
+
+#Footer_Text {
+    margin-top: 20px;
+}
+
+input:hover{
+       background: #273027;
+     border-radius: 9999px;
+}

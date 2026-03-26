@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SICHARLAS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header > 
+        <ul class="encabezado">
+        <li  ><h1 id="Nombre_Marca">SICHARLAS</h1></li>
+        <li><img id="logo" src="logo.png"></li>
+        </ul>
+    </header>
+    <nav >
+    <ul class="menu">
+        <li><a  href= './index.html'  class='words_nav' id="Btn_Inicio"  >Inicio</a></li>
+    <li><a class='words_nav' > <button id='Listar'   onclick='enlistar();' >Listado</button>
+</a></li>
+    <li><a  class='words_nav' >Charlas</a></li>
+     <li> <a  class='words_nav' >Programación</a></li>
+     
+      </ul>
+    </nav>
+   <main class='contenedor'>
+   
+    <form id="form">
+        <label for="usuario_nombre">Nombre del Participante:</label><br>
+<input type="text" id="usuario_nombre">
+<label for="usuario_pass">Número de Cuenta:</label><br>
+<input type="text" id="usuario_pass">
+<label for="Charla">Nombre de la Charla:</label><br>
+<input type="text" id="Charla">
+<label for="cupo">Cupo Máximo:</label><br>
+<input type="text" id="cupo">
+   </form>
+   <section id="Btn_Form">
+   <button id='btn_enviar'   onclick='mostrar_datos();' >Registrar</button>
+    <button id='cancelar'   onclick='resetear();' >Cancelar</button>
+
+</section>
+   
+   <footer>
+    <p id="Footer_Text">@Derechos Reservados "SICHARLA OF LUCIERNAGAS GROUP"<p>
+      
+    </footer>
+    </main>
+    <script src="js/js.js"></script>
+</body>
+</html>
